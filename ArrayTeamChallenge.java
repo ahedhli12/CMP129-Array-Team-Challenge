@@ -22,8 +22,16 @@ public class ArrayTeamChallenge {
         // Count and display how many scores are above the average.
 
 
-        // BONUS:
+        // BONUS 1:
         // Display the scores in reverse order.
+
+
+        // BONUS 2 - SCORE SEARCH:
+        // Ask the user to enter a score to search for.
+        // Determine whether the score exists in the array.
+        // Display the index of the first occurrence.
+        // Count how many times the score appears.
+        // If it is not found, display an appropriate message.
 
     }
 }
