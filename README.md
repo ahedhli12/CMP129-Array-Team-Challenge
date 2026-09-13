@@ -91,7 +91,7 @@ Your answer must be calculated by the program.
 
 ---
 
-## Bonus Challenge
+## Bonus Challenge 1 – Reverse Order
 
 If your team finishes early, display the scores in **reverse order**.
 
@@ -107,6 +107,22 @@ Example:
 92
 78
 ```
+
+---
+
+## Bonus Challenge 2 – Score Search
+
+Ask the user to enter a score to search for.
+
+Your program should:
+
+1. Search the array for the score entered by the user.
+2. Display whether the score was found.
+3. Display the index of the **first occurrence** of that score.
+4. Display how many times the score appears in the array.
+5. If the score is not found, display a message saying that it was not found.
+
+This challenge should use a loop and conditions. Do not hard-code the answer.
 
 ---
 
