@@ -14,7 +14,7 @@ public class ArrayTeamChallenge {
 
 
         // Challenge 3:
-        // Find and display the highest score in the array.
+        // Find and display the highest and lowest score in the array.
         // Do not simply print 95.
 
 
@@ -40,15 +40,6 @@ public class ArrayTeamChallenge {
         // Count how many times the score appears.
         // If it is not found, display an appropriate message.
 
-
-        // BONUS 3 - LOWEST SCORE:
-        // Find and display the lowest score in the array.
-
-
-        // BONUS 4 - SORT AND ANALYZE:
-        // Sort the scores from lowest to highest using Arrays.sort().
-        // Display the sorted scores.
-        // Be prepared to explain whether sorting was needed for the main challenges.
 
     }
 }
