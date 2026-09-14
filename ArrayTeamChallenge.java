@@ -22,12 +22,6 @@ public class ArrayTeamChallenge {
         // Count and display how many scores are above the average.
 
 
-        // TEAM TESTING CHALLENGE:
-        // Temporarily test your program with:
-        // int[] scores = {70, 80, 90, 100};
-        // Predict the average, highest score, and number above average first.
-        // Then restore the original scores array.
-
 
         // BONUS 1 - REVERSE ORDER:
         // Display the scores in reverse order.
