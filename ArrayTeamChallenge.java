@@ -22,7 +22,14 @@ public class ArrayTeamChallenge {
         // Count and display how many scores are above the average.
 
 
-        // BONUS 1:
+        // TEAM TESTING CHALLENGE:
+        // Temporarily test your program with:
+        // int[] scores = {70, 80, 90, 100};
+        // Predict the average, highest score, and number above average first.
+        // Then restore the original scores array.
+
+
+        // BONUS 1 - REVERSE ORDER:
         // Display the scores in reverse order.
 
 
@@ -32,6 +39,16 @@ public class ArrayTeamChallenge {
         // Display the index of the first occurrence.
         // Count how many times the score appears.
         // If it is not found, display an appropriate message.
+
+
+        // BONUS 3 - LOWEST SCORE:
+        // Find and display the lowest score in the array.
+
+
+        // BONUS 4 - SORT AND ANALYZE:
+        // Sort the scores from lowest to highest using Arrays.sort().
+        // Display the sorted scores.
+        // Be prepared to explain whether sorting was needed for the main challenges.
 
     }
 }
