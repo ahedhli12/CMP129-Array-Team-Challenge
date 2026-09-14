@@ -11,7 +11,7 @@ Your team will practice:
 - Traversing arrays with loops
 - Using `.length`
 - Performing calculations with array values
-- Finding the highest value
+- Finding the highest and lowest values
 - Using conditions with arrays
 - Searching an array
 - Testing and debugging Java programs
@@ -66,8 +66,6 @@ Your program will use:
 ```java
 int[] scores = {78, 92, 85, 67, 95, 88, 73, 90};
 ```
-
-Do not change the starting array until your team has completed and tested the required challenges.
 
 ---
 
@@ -131,20 +129,21 @@ Explain:
 
 ---
 
-# Challenge 3 – Find the Highest Score
+# Challenge 3 – Find the Highest and Lowest Scores
 
-Use a loop to determine the highest score in the array.
+Use a loop to determine both the **highest** and **lowest** scores in the array.
 
 Expected output:
 
 ```text
 Highest Score: 95
+Lowest Score: 67
 ```
 
 Requirements:
 
-- Do not simply print `95`.
-- Your program must determine the highest value from the array.
+- Do not simply print `95` or `67`.
+- Your program must determine both values from the array.
 - Your solution should continue working if the values in the array change.
 
 ### Team Check
@@ -152,7 +151,8 @@ Requirements:
 Discuss:
 
 - What should the starting value of the `highest` variable be?
-- Why do we compare each array value with the current highest value?
+- What should the starting value of the `lowest` variable be?
+- How can the same loop compare each score with both values?
 
 **Rotate team roles before Challenge 4.**
 
@@ -176,35 +176,13 @@ Requirements:
 
 ### Team Check
 
-Your team should be able to identify which scores are above the average.
-
----
-
-# Team Testing Challenge
-
-Before moving to the bonus challenges, change the array temporarily to:
-
-```java
-int[] scores = {70, 80, 90, 100};
-```
-
-Predict the following **before running the program**:
-
-- Average
-- Highest score
-- Number of scores above average
-
-Run your program and compare the results with your prediction.
-
-Then restore the original array.
-
-This test demonstrates that your program works with different data and that the answers were not hard-coded.
+Your team should be able to identify which scores are above the average and explain how the counter works.
 
 ---
 
 # Bonus Challenge 1 – Reverse Order
 
-Display all scores in reverse order.
+If your team finishes the required challenges, display all scores in **reverse order**.
 
 Expected output:
 
@@ -231,7 +209,7 @@ Think about:
 
 # Bonus Challenge 2 – Score Search
 
-Ask the user to enter a score.
+Ask the user to enter a score to search for.
 
 Your program should:
 
@@ -253,41 +231,7 @@ Number of occurrences: 1
 
 Remember that Java array indexes begin at `0`.
 
-Do not hard-code the result.
-
----
-
-# Bonus Challenge 3 – Lowest Score
-
-If your team finishes early, determine the **lowest score** in the array.
-
-Example:
-
-```text
-Lowest Score: 67
-```
-
-Your solution should continue working if the array values change.
-
----
-
-# Bonus Challenge 4 – Sort and Analyze
-
-If your team finishes all previous challenges, sort the scores from lowest to highest.
-
-You may research the Java `Arrays.sort()` method.
-
-Expected result:
-
-```text
-67 73 78 85 88 90 92 95
-```
-
-Discuss with your team:
-
-**Was sorting necessary to calculate the average, highest score, or scores above average?**
-
-Be prepared to explain why or why not.
+Use a loop and conditions. Do not hard-code the result.
 
 ---
 
@@ -304,7 +248,7 @@ If your team becomes stuck, you may use GitHub Copilot for:
 
 Example prompt:
 
-> I am learning Java arrays. Give me a hint for finding the largest value in an integer array. Do not write the complete solution.
+> I am learning Java arrays. Give me a hint for comparing values in an integer array. Do not write the complete solution.
 
 Do **not** ask Copilot to complete the entire activity.
 
@@ -316,13 +260,13 @@ Your team is responsible for understanding all code in the final program.
 
 # Team Completion Check
 
-Before your team finishes, every member should be able to answer the following questions:
+Before your team finishes, every member should be able to answer:
 
 1. What is an array?
 2. What does `scores.length` return?
 3. Why do Java array indexes begin with `0`?
 4. How did your team calculate the average?
-5. How did your team determine the highest score?
+5. How did your team determine the highest and lowest scores?
 6. How did your team count scores above the average?
 7. How would you search an array for a specific value?
 8. What part of the program did you personally help develop?
@@ -341,6 +285,6 @@ Your team should submit:
 
 ### Important
 
-This is a **team programming activity**, not three separate individual problems.
+This is a **team programming activity**, not a set of separate individual problems.
 
 Discuss the solution together, rotate roles, test each other's work, and make sure **every team member understands the final program**.
